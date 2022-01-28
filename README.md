@@ -3,7 +3,7 @@ A multithreaded prime calculator for COP4520 as Programming Assignment 1. Coded 
 
 Filename: PrimeCalculator.java
 
-# Run Instructions
+# Run Instructions:
 1. Open terminal
 2. Navigate to directory containing PrimeCalculator.java
 3. Compile using:
@@ -21,7 +21,7 @@ Your non-technical manager assigns you the task to find all primes between 1 and
 # Proof of Correctness:
 My implementation uses a Reentrant Lock to make sure there is mutual exclusion between the threads. This works by allowing threads to reenter into a lock on a resource without causing a deadlock situation. It gives a lock to the current working their and blocks all other threads from accessing that shared resource at the time, and unlocks once the working thread is finished with its operation. The algorithm used for determine the primeness of a number was achieved using a Sieve of Atkins. This works by running a certain range of numbers through a set of conditions to determine if they are prime, which are explained in more detail in the code in comments. 
 
-# Experimental Evaluation
+# Experimental Evaluation:
 Processor used for testing: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz (8 CPUs), ~2.8GHz
 
 My experimental evaluation throughout this assignment was long and tedious. Although the basic implementation of a prime calculator was not complicated, the main area of concern was the efficiency and run-time.
