@@ -1,6 +1,20 @@
 # Multithreaded-Primes
 A multithreaded prime calculator for COP4520 as Programming Assignment 1. Coded in Java using Eclipse IDE.
 
+Filename: PrimeCalculator.java
+
+# Run Instructions
+1. Open terminal
+2. Navigate to directory containing PrimeCalculator.java
+3. Compile using:
+```bash
+  javac PrimeCalculator.java
+```
+4. Run using:
+```bash
+  java PrimeCalculator
+```
+
 # Problem Statement:
 Your non-technical manager assigns you the task to find all primes between 1 and 108.  The assumption is that your company is going to use a parallel machine that supports eight concurrent threads. Thus, in your design you should plan to spawn 8 threads that will perform the necessary computation. Your boss does not have a strong technical background but she is a reasonable person. Therefore, she expects to see that the work is distributed such that the computational execution time is approximately equivalent among the threads. Finally, you need to provide a brief summary of your approach and an informal statement reasoning about the correctness and efficiency of your design. Provide a summary of the experimental evaluation of your approach. Remember, that your company cannot afford a supercomputer and rents a machine by the minute, so the longer your program takes, the more it costs. Feel free to use any programming language of your choice that supports multi-threading as long as you provide a ReadMe file with instructions for your manager explaining how to compile and run your program from the command prompt.
 
